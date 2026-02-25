@@ -2,54 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Saul | AI & Climate Technology</title>
+    <title>Saul Patil | AI & Climate Technology</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     
     <style>
         body {
             margin: 0;
             font-family: 'Inter', sans-serif;
-            background-color: #0f172a;
-            color: #f1f5f9;
-            line-height: 1.6;
+            background-color: #0b1120;
+            color: #e2e8f0;
+            line-height: 1.7;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+            background-color: #111827;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
         }
 
         header {
             text-align: center;
-            padding: 80px 20px;
+            padding: 100px 20px 60px;
         }
 
         h1 {
-            font-size: 2.8rem;
+            font-size: 3rem;
             margin-bottom: 10px;
         }
 
+        .tagline {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
         h2 {
-            margin-top: 60px;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
             border-bottom: 2px solid #38bdf8;
             display: inline-block;
             padding-bottom: 5px;
         }
 
-        .subtitle {
-            font-weight: 400;
-            color: #94a3b8;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-
         .card {
-            background: #1e293b;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
+            background-color: #111827;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
         }
 
         ul {
@@ -59,58 +81,68 @@
         footer {
             text-align: center;
             padding: 40px 20px;
-            margin-top: 60px;
-            font-size: 0.9rem;
+            background-color: #111827;
             color: #94a3b8;
+            font-size: 0.9rem;
         }
 
         a {
             color: #38bdf8;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
 
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#skills">Skills</a>
+</nav>
+
 <header>
-    <h1>Saul</h1>
-    <p class="subtitle">Grade 8 | AI & Climate Technology Enthusiast</p>
-    <p>Building AI-driven climate intelligence systems using satellite data to empower resilient communities.</p>
+    <h1>Saul Patil</h1>
+    <p class="tagline">
+        AI & Climate Technology Developer focused on satellite-driven climate intelligence 
+        and youth-led sustainability innovation.
+    </p>
 </header>
 
-<div class="container">
-
-    <h2>About Me</h2>
+<section id="about">
+    <h2>About</h2>
     <div class="card">
         <p>
-            I am a student at Sanjivani Academy with a strong focus on AI, satellite systems, robotics, 
-            and climate technology. My work explores how youth can leverage emerging technologies 
-            to build sustainable and resilient communities.
+            Student at Sanjivani Academy with a strong interest in artificial intelligence, 
+            satellite systems, robotics, and climate resilience. My work explores how 
+            emerging technologies can be applied to create scalable solutions for global 
+            sustainability challenges.
         </p>
     </div>
+</section>
 
+<section id="projects">
     <h2>Projects</h2>
 
     <div class="card">
         <h3>AegisAI – Youth Climate Intelligence Initiative</h3>
         <p>
-            A youth-driven AI platform designed to analyze satellite data and generate early climate risk insights 
-            for vulnerable communities. Aligned with SDG 13 – Climate Action.
+            A youth-driven AI platform designed to analyze satellite data and generate 
+            early climate risk insights for vulnerable communities. 
+            Aligned with SDG 13 – Climate Action.
         </p>
     </div>
 
     <div class="card">
-        <h3>GK2A Satellite Reception Project</h3>
+        <h3>GK2A Satellite Reception & Analysis</h3>
         <p>
-            Worked on receiving and decoding GK2A meteorological satellite data 
-            for atmospheric monitoring and environmental analysis.
+            Worked on receiving and decoding GK2A meteorological satellite data for 
+            atmospheric monitoring and environmental pattern analysis.
         </p>
     </div>
+</section>
 
+<section id="achievements">
     <h2>Achievements</h2>
     <div class="card">
         <ul>
@@ -119,7 +151,9 @@
             <li>Robotics & STEM Innovation Projects</li>
         </ul>
     </div>
+</section>
 
+<section id="skills">
     <h2>Skills</h2>
     <div class="card">
         <ul>
@@ -130,11 +164,10 @@
             <li>Public Speaking & Leadership</li>
         </ul>
     </div>
-
-</div>
+</section>
 
 <footer>
-    © 2026 Saul | Youth Climate Innovator  
+    © 2026 Saul Patil  
     <br>
     Currently developing AegisAI – AI for Global Climate Resilience
 </footer>
